@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author ericwong
+%%% @copyright (C) 2021, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 06. Feb 2021 21:17
+%%%-------------------------------------------------------------------
+{application, log_resource_server, [
+  {description, "a simple app."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {log_resource_server, []}},
+  {env, []}
+]}.
